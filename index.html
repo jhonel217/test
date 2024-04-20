@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<style>
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .login-container {
+        width: 300px;
+        padding: 20px;
+        background-color: black;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    .show-password {
+        margin-top: 10px;
+    }
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body style="background:url('./kk.jpeg')">
+<div class="login-container">
+<center>
+<h2 style="color:red">WELCOME TO MY WEBSITE</h2>
+<h2 style="color:red">LOGIN</h2>
+<form action="https://github.com/jhonel217/try11" method="post">
+<p style="color:white"><label for="username">User Name:</label></p>
+<input type="text" placeholder="Username" id="username" name="username" required maxlength="20">
+<p style="color:white"><label for="password">Password:</p>
+<input type="password" placeholder="Password" id="password" name="password" required minlength="6">
+<h6><input type="checkbox"><span style="color:white">Remember Me</h6>
+<a href="/storage/emulated/0/2/index.html">Sign Up</a>
+<input type="submit" value="LOGIN"></form>
+</form>
+</div>
+</center>
+</body>
+</html>
